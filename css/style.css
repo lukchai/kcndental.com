@@ -83,6 +83,16 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 .main .cols .col img { float: left; width: 129px; height: 108px;  }
 .main .cols .col-cnt { width: 183px; float: right; }
 
+
+
+.main .cols1 { padding-left: 0; padding-right: 0; }
+.main .cols1 .colp { width: 480px; float: left; }
+.main .cols1 .colp:after { content:''; width: 100%; clear: both; }
+.main .cols1 .colp + .col { padding-left: 20px; }
+.main .cols1 .colp img { float: left; width: 270px; height: 180px;  }
+.main .cols1 .colp-cnt { width: 183px; float: right; }
+
+
 .main .post  { background: url(images/cols-shadow.png) no-repeat 0 bottom; padding-top: 28px; padding-left: 40px;  }
 .main .post .video-holder { width: 435px; height: 245px; float: left; margin-right: 20px; }
 .main .post h2 { padding-bottom: 15px; }
